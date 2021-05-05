@@ -1,6 +1,6 @@
-const Migration = artifacts.require("SekynToken");
+const SekynToken = artifacts.require("SekynToken");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migration);
+  deployer.deploy(SekynToken);
 
 };
